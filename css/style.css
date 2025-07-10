@@ -86,3 +86,43 @@ header{
     height: 328px;
     border-radius: 48px;
 }
+/*  joined Thousands of Productive Users section   */
+.user_section{
+    display: flex;
+   justify-content: space-between;
+   width: 856px;
+    height: 206px;
+   margin: 0 auto;
+    line-height: 0%;
+    font-family: none;
+}
+.joined_thousands h5{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 0%;
+    
+    
+   
+
+}
+.joined_thousands{
+    background-color:  #dbdbf1;
+   padding: 1px 70px;
+    height: 311px;
+    width: 1019px;
+    margin: 0 auto;
+}
+.fixd{
+    width: 856px;
+    height: 206px;
+}
+.user{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.active_user p{
+    font-size: 20px;
+    color: #000000;
+}
+    
