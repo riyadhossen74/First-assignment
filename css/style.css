@@ -56,3 +56,33 @@ header{
     margin: 0 auto;
 
 }
+/* main sectaion style  */
+.launch_live{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin: 116px auto;
+}
+.preview{
+    width: 517px;
+    height: 203px;
+}
+.preview h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #252432;
+}
+.preview p{
+    font-size: 24px;
+    color: #252432;
+}
+.preview button{
+    width: 229px;
+    height: 48px;
+}
+.webflow_conf img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
