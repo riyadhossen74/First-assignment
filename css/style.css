@@ -16,6 +16,13 @@ body{
     color: #FFFFFF;
     font-weight: bold;
     }
+    .btn_share:hover{
+        cursor: pointer;
+        background-color: #ceaf21;
+        color: #000;
+        border: 2px solid blueviolet;
+        
+    }
 
 /* header section  */
 header{
@@ -113,6 +120,7 @@ header{
     height: 311px;
     width: 1019px;
     margin: 0 auto;
+    border-radius: 24px;
 }
 .fixd{
     width: 856px;
@@ -127,42 +135,83 @@ header{
     color: #000000;
 }
 /* user say section style  */
-  .tastimonial{
-    width: 1140px;
-    height: 342px;
-    margin-top: 137px;
-  }
-  .cards{
-    width: 366px;
-    height: 243px;
+  .Loved{
     display: flex;
-
+    width: 1160px;
+   
+    margin: 0 auto;
   }
-  .card{
-    display: inline-block;
-  }
-  .user_say{
-        font-size: 42px;
-        font-weight: bold;
-        text-align: center;
-  }
-  .cards h3{
-    font-size: 20px;
-    
-  }
-  .avater{
+  .avatar_img{
     width: 40px;
     height: 40px;
+    border-radius: 9999px;
+    display: flex;
+  }
+  .Designers{
+    display: flex;
   }
   .revew{
-    width: 318px;
-    height: 46px;
-    display: flex;
-    gap: 20px;
-  }
-  .date{
     line-height: 0;
   }
+  .Reviewer_name{
+    line-height: 0;
+    margin-left: 10px;
+  }
+
+    .user_say{
+        text-align: center;
+        margin-top: 116px;
+    }
+    .user_say h2{
+        font-size: 42px;
+        font-weight: bold;
+        color: #252432;
+    }
+    .date{
+       padding: 33px;
+       border-radius: 14px;
+        margin: 10px;
+        background-color: #FFFFFF;
+    }
+    .active_user{
+
+    }
+
+    /* Ready to say better section  */
+        .focus_better{
+            width: 1140px;
+            height: 700px;
+            margin: 0 auto;
+            text-align: center;
+             background-color: #FFFFFF;
+             margin-top: 104px;
+    }
+        .focus_better h2{
+            font-size: 50px;
+            font-weight: bold;
+            width: 516px;
+            margin: 0 auto;
+            height: 60px;
+            padding-top: 71px;
+        }
+          .focus_better p{
+            width: 487px;
+            height: 22px;
+            margin: 0 auto;
+            padding-top: 24px;
+            padding-bottom: 14px;
+          }
+          .focus_better img{
+            width: 840px;
+            height: 364px;
+            padding-top: 23px;
+            border-radius: 48px;
+          }
+          .gar_stared{
+            width: 195px;
+            height: 48px;
+          }
+  
   /* lets get section  */
   .from{
     width: 1140px;
@@ -175,7 +224,7 @@ header{
    .lets{
     font-size: 97px;
     font-weight: bold;
-    /* /* text-align: right center; */
+    
     width: 528px;
     height: 232px;
     margin-top: 97px;
@@ -191,6 +240,7 @@ header{
     font-size: 18px;
     font-weight: 500;
     color: #000000;
+    margin: 10px;
    
    }
    .user_from input{
@@ -198,14 +248,57 @@ header{
     padding: 24px;
     border-radius: 10px;
     border: none;
+    margin: 10px;
+     
+   
    }
    .user_from textarea{
     border-radius: 10px;
     padding: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
    }
    .massge_btn{
     width: 497px;
     height: 62px;
     margin-top: 10px;
+    margin-left: 13px;
    }
+   
+   
   /* fotter secation */
+  footer{
+    
+    height: 428px;
+    background-color: #FFFFFF;
+  }
+.fotter_section h1{
+    width: 322px;
+    margin: 0 auto;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    
+}
+.fotter_section{
+     padding: 95px 433px;
+}
+.fotter_section p{
+    width: 531px;
+    margin: 0 auto;
+    color: #8987A1;
+    padding-top: 12px;
+   
+}
+.fotter_link{
+    width: 513px;
+   margin: 0 auto;
+   padding-top: 25px;
+}
+.fotter_link a{
+    color: #8987A1;
+    margin: 26px;
+    text-decoration: none;
+    text-align: center;
+     width: 401px;
+}
